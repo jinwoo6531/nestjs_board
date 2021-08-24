@@ -3,6 +3,6 @@ import { BoardsModule } from './boards/boards.module';
 import { AuthModule } from './auth/auth.module';
 
 @Module({
-  // imports: [BoardsModule, AuthModule],
+  imports: [BoardsModule, AuthModule],
 })
 export class AppModule {}
